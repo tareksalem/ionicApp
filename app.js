@@ -19,10 +19,7 @@ const usersRouter = require("./routes/users");
 // define app class
 const app = express();
 
-app.get("/", (req, res) => {
-    console.log("hello");
-    res.end("hello");
-})
+
 // use dependencies
 app.use(logger("dev"));
 app.use(methodOverride());
