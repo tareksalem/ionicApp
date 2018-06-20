@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "42649487256",
+    "firebase_url": "https://mgsalatry.firebaseio.com",
+    "project_id": "mgsalatry",
+    "storage_bucket": "mgsalatry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42649487256:android:0233f12540c2fa5a",
+        "android_client_info": {
+          "package_name": "com.mgsalaco.mgsala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42649487256-a0a446ts5lqm9s4er8ekj4ilfbc0imq7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "42649487256-a0a446ts5lqm9s4er8ekj4ilfbc0imq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrJGly5ymYYAcqMWsWABrJD2RZNftJ6-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
