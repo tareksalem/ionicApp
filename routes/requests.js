@@ -19,6 +19,7 @@ router.post("/", (req, res) => {
     var timeStamp = body.timeStamp || "";
     var MapLongitude = body.MapLongitude || "";
     var MapLatitude = body.MapLatitude || "";
+    var ReqNum = body.ReqNum || "";
     var Notes = body.Notes || "";
     var request = http.request({
             host: "jawalsms.net",
@@ -39,6 +40,7 @@ router.post("/", (req, res) => {
                     D_date: D_date,
                     R_time: R_time,
                     D_time: D_time,
+                    ReqNum: ReqNum,
                     D_shift: D_shift,
                     R_shift: R_shift,
                     service: service,
